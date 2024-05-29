@@ -76,7 +76,7 @@ body {
      max-width: 400px;
 }
 .heading {
-     font-family: 'Raleway', serif;
+     font-family: 'Century Gothic', serif;
      font-size: 1.5rem;
      font-weight: 700;
      line-height: 1.2;
@@ -84,19 +84,19 @@ body {
 }
 
 .description {
-     font-family: 'Georgia', sans-serif;
+     font-family: 'Comic sans', sans-serif;
      font-size: 1rem;
      line-height: 1.5;
 }
-.theme-Tan {
-   background: #98B680;
+.theme-one {
+   background: #75A6F0;
    color: #FFFFFF;
 }
-.theme-BlanchedAlmond {
-   background: #B69380;
+.theme-two {
+   background: #47BFB8;
    color: #ffffff;
 }
-.theme-Wheat {
+.theme-three {
    background: #B68380;
    color: #FFFFFF;
 }
@@ -107,15 +107,15 @@ body {
      color: #fff;
 }
 .img-background--beg {
-     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/spckq/sp/main/беж.jpghttps://atvmedia.ru/uploads/news/202312/170219498426.jpg');
+     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githack.com/punkmausisntmaus/Learn/main/1.jpg');
 }
 
 .img-background--aet {
-     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://tagileparhiya.ru/wp-content/uploads/2016/06/29e1d72681a84c80a79f98f7fc08f355_201602180448.jpg');
+     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githack.com/punkmausisntmaus/Learn/main/2.jpg');
 }
 
 .img-background--sea {
-     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://gas-kvas.com/grafic/uploads/posts/2023-10/1696449218_gas-kvas-com-p-kartinki-dlya-biblioteki-11.jpg');
+     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githack.com/punkmausisntmaus/Learn/main/3.jpg');
      background-size: cover;
      background-repeat: no-repeat;
      color: #fff;
