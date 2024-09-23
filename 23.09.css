@@ -230,6 +230,7 @@
 .nav-animate {
   color: rgba(0, 0, 255) !important; 
 }
+.section{ 
 float: left;
  font-size: 84px;
  line-height: 64px;
@@ -237,4 +238,6 @@ float: left;
  padding-right: 8px;
  padding-left: 3px;
  font-family: 'Roboto', sans-serif;
+}
+
  
