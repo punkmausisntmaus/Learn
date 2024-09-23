@@ -48,7 +48,7 @@
 #header-overlay {
   height: 100vh;
   width: 100%;
-  background:transparent;
+  background:?;
   position: absolute;
   top: 0;
   left: 0;
@@ -100,7 +100,7 @@
   top: 0;
   left: 0;
   position: absolute;
-  background: e168ff;
+  background: rgba(255, 255, 240);
   transition: .3s ease-in-out;
 }
 .grow {
@@ -111,6 +111,7 @@
   color: #000;
   border: 1px solid rgba(255, 255, 240) !important;
 }
+
 .fuller {
   margin-left: -8%;
   opacity: 0;
@@ -121,6 +122,7 @@
   visibility: hidden;
   opacity: 0;
 }
+
 #menu-button-container {
   display: inline-block;
   float: right;
@@ -144,6 +146,7 @@
   top: 14px;
   transition: .4s ease-in-out;
 }
+
 #menu-button div:nth-child(1) {
   top: 7px;
 } 
@@ -170,8 +173,9 @@
   transform: rotate(-45deg);
   
 }
+
 #menu-button.change-color div {
-  background: ff3a35; /* курсор на кнопке закрыть */
+  background: rgba(0, 0, 255); /* курсор на кнопке закрыть */
 }
 
 #menu-button.hover-animation div:nth-child(1), #menu-button.hover-animation div:nth-child(4) {
@@ -179,17 +183,18 @@
 }
 
 #menu-button.hover-color div {
-  background: ff6c31; /* активность на кнопке закрыть */
+  background: rgba(0, 0, 255); /* активность на кнопке закрыть */
 }
 
 #menu-button.hover-color2 div {
-  background: 99221f !important; /* курсор за пределом кнопки */
+  background: rgba(255, 255, 255) !important; /* курсор за пределом кнопки */
 }
+
 #menu-overlay {
   position: absolute;
   height: 0;
   width: 100%;
-  background: url("https://raw.githack.com/punkmausisntmaus/Learn/main/2.jpg"); /* ваше перекрывающее фото */
+  background: url(""); /* ваше перекрывающее фото */
   left: 0;
   top: 0;
   transition: .5s ease-in;
@@ -199,6 +204,7 @@
 .reveal {
   height: 610px !important; 
 }
+
 #nav-container {
   position: absolute;
   top: ?; 
@@ -212,18 +218,26 @@
   list-style: none;
   transition: .6s ease-in-out;
 }
+
 #nav-container ul li a {
   text-decoration: none;
   font-family: 'Roboto', serif;
   font-size: 50px;
   line-height: 28px;
-  color: ff6c31;
+  color: rgba(255, 255, 255);
   transition: .3s ease-in-out;
 }
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  margin-left: -60%;
+}
+
 .nav-animate {
   color: rgba(0, 0, 255) !important; 
 }
-.book{ 
+
 float: left;
  font-size: 84px;
  line-height: 64px;
@@ -231,4 +245,5 @@ float: left;
  padding-right: 8px;
  padding-left: 3px;
  font-family: 'Roboto', sans-serif;
-}
+ 
+ 
