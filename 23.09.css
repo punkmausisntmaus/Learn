@@ -230,7 +230,7 @@
 .nav-animate {
   color: rgba(0, 0, 255) !important; 
 }
-.section{ 
+.book{ 
 float: left;
  font-size: 84px;
  line-height: 64px;
@@ -239,5 +239,3 @@ float: left;
  padding-left: 3px;
  font-family: 'Roboto', sans-serif;
 }
-
- 
